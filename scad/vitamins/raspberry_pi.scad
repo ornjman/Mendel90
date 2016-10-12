@@ -13,7 +13,7 @@ pi_clearance = 0.25;
 pi_thickness = 1.6;
 
 module pi_holes()
-    for(hole = [[3.5, 3.5], [3.5, pi_width-3.5], [58, 3.5], [58, pi_width-3.5]])
+    for(hole = [[3.5, 3.5], [3.5, pi_width-3.5], [61.5, 3.5], [61.5, pi_width-3.5]])
         translate([pi_width / 2 - hole[1], hole[0] - pi_length / 2, 0])
             children();
 
